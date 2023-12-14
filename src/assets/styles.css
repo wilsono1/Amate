@@ -1,31 +1,8 @@
 
-body{
-    margin: 0px;
-    padding:0px;
-}
-
-main{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-left: 60px;
-    margin-right: 60px;
-    border: 30px;
-    
-    
-}
 
 
+/* Global---------------------------------------------- */
 
-nav {
-    background: white;
- 
-   
-    padding: 10px 10px;
-    display: flex;
-    justify-content: space-evenly;
-
-}
 
 
 
@@ -47,42 +24,56 @@ nav a:hover{
     color:grey;
 }
 
+body{
+    margin: 0px;
+    padding:0px;
+}
+
+
+/* Home Page------------------------------------------------------ */
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 60px;
+    margin-right: 60px;
+    border: 30px;
+    
+}
+
 
 .container {
     position: relative;
-    display: inline-block;
-    flex-wrap: wrap;
+    display: flex;
+    background: url("https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?cs=srgb&dl=pexels-ella-olsson-1640777.jpg&fm=jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    min-height: 800px;
+    padding: 40px; 
+    justify-content: center;
+    align-items: center;
+
+}
     
-   
 
-    .image1 {
-   
-    max-width: 100%;
 
-          
-        }
-
-    .text-block {
-  position: absolute;
-  width: 700px;
-  height: 300px;
-  top: 50%; 
-  left: 50%; 
-  transform: translate(-50%, -50%); 
+  .text-block {
+  width: 50%;
+  min-width: 300px;
+  max-width: 700px;
   border-radius: 10px;
-  opacity: 0.9;
-  background: white;
+  background-color: rgba(255, 255, 255, 0.9);
+  max-height: 550px;
+ 
  
   padding: 10px 20px; 
   box-shadow: 0 0px 8px 0 grey;
-
-  
-  
-
        
   }
 
-      }
+      
     
   h1{
     font-family: 'Montserrat', sans-serif;
@@ -111,25 +102,20 @@ nav a:hover{
   }
 
 
-
-
-.Area{
+.area{
     display: flex;
+    flex-direction: column;
     justify-content: space-evenly;
     padding: 40px;
-    max-width: 50%;
+   
  
 }
 
-
-
-.image2{
+img{
     width: 100%;
     object-fit: contain;
-   
 
 }
-
 
 p {
 
@@ -150,23 +136,84 @@ text-align: left;
 
 }
 
-footer{
-text-align: center;
-flex-shrink: 0;
-    
+
+
+/* Home Page----------------------------------------------------------------------------------- */
+
+
+
+
+
+
+/* About------------------------------------------------------------------------------------------*/
+
+
+
+.about-me-description{
+
+    color:aqua;
 }
+
+
+
+
+
+
+
+/* About------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+/* Services------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Services-----------------------------------------------------------------------------------------*/
+
+/* Footer-----------------------------------------------------------------------------------------*/
 
 p2{
-    color: black;
-    padding-top: 30px;
-    padding-left: 40px;
-    max-width: fit-content;
+    text-align: center;
     flex-shrink: 0;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 10px;
-    font-style: normal;
-    font-weight: 200;
-    letter-spacing: 1px;
-    line-height: normal;
+    color: black;
+        padding-top: 30px;
+        padding-left: 40px;
+        max-width: fit-content;
+        flex-shrink: 0;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 200;
+        letter-spacing: 1px;
+        line-height: normal;
+       
+        
+    }
+/* Footer-----------------------------------------------------------------------------------------*/
 
+@media (min-width:800px){
+    .area{
+        flex-direction: row;
+        max-width: 50%;
+    }
 }
+
+
