@@ -1,11 +1,15 @@
 :root {
-    --header-height: 200px;
+    --header-height: 140px;
     --menu-bg:white;
 }
 
 body {
     position: relative;
     margin: 0;
+}
+
+main {
+    margin-top: var(--header-height);
 }
 
 header {
@@ -74,9 +78,6 @@ nav a {
         width: 100%;
     }
 
-    main {
-        margin-top: var(--header-height);
-    }
 
     .btn-toggle-menu {
         visibility: hidden;
