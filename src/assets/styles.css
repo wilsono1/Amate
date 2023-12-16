@@ -47,7 +47,7 @@ main{
 .container {
     position: relative;
     display: flex;
-    background: url("https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?cs=srgb&dl=pexels-ella-olsson-1640777.jpg&fm=jpg");
+    background:url("/assets/image1.jpg");
     background-size:cover;
     background-repeat: no-repeat;
     min-height: 800px;
@@ -66,8 +66,6 @@ main{
   border-radius: 10px;
   background-color: rgba(255, 255, 255, 0.9);
   max-height: 550px;
- 
- 
   padding: 10px 20px; 
   box-shadow: 0 0px 8px 0 grey;
        
@@ -104,7 +102,6 @@ main{
 
 .area{
     display: flex;
-    flex-direction: column;
     justify-content: space-evenly;
     padding: 40px;
    
@@ -121,7 +118,6 @@ p {
 
 color: black;
 padding-top: 10px;
-padding-right: 0;
 padding-left: 40px;
 max-width:87% ;
 object-fit: contain;
@@ -148,13 +144,25 @@ text-align: left;
 /* About------------------------------------------------------------------------------------------*/
 
 
-
-.about-me-description{
-
-    color:aqua;
+.image3{
+    width: 80%;
+    object-fit: contain;
 }
 
 
+.about-me-description{
+
+    color:black;
+    padding-left: 40px;
+    font-size: 40px;
+    line-height: 60px;
+
+}
+
+.strong{
+    font-weight: bold;
+    font-size: larger;
+}
 
 
 
@@ -173,14 +181,81 @@ text-align: left;
 /* Services------------------------------------------------------------------------------------------*/
 
 
+.container2 {
+    position: relative;
+    display: flex;
+    background-image:url("/assets/background.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    min-height: 800px;
+    padding: 200px; 
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
 
 
+}
+    
 
 
+.text-block1 {
+    width: 50%;
+    min-width: 900px;
+    max-width: 900px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    min-height: 200px;
+    max-height: 500px;
+    padding: 100px; 
+    box-shadow: 0 0px 8px 0 grey;
+    margin: 30px;
+         
+    }
+
+    .text-block2 {
+        width: 50%;
+        min-width: 900px;
+        max-width: 900px;
+        border-radius: 10px;
+        background-color: rgba(255, 255, 255, 0.9);
+        min-height: 200px;
+        max-height: 500px;
+        padding: 100px; 
+        box-shadow: 0 0px 8px 0 grey;
+        margin: 30px;
+             
+        }
+        .text-block3 {
+            width: 50%;
+            min-width: 900px;
+            max-width: 900px;
+            border-radius: 10px;
+            background-color: rgba(255, 255, 255, 0.9);
+            min-height: 200px;
+            max-height: 500px;
+            padding: 100px; 
+            box-shadow: 0 0px 8px 0 grey;
+            margin: 30px;
+                 
+            }
 
 
-
-
+            .text-block4 {
+                width: 50%;
+                min-width: 900px;
+                max-width: 900px;
+                border-radius: 10px;
+                background-color: rgba(255, 255, 255, 0.9);
+                min-height: 200px;
+                max-height: 500px;
+                padding: 100px; 
+                box-shadow: 0 0px 8px 0 grey;
+                margin: 30px;
+                     
+                }
+    
 
 
 
