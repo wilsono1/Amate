@@ -4,8 +4,6 @@
 /* Global---------------------------------------------- */
 
 
-
-
 nav a { 
     color: black;
     font-size: 18px;
@@ -23,6 +21,70 @@ body{
     padding:0px;
     font-family: 'Montserrat', sans-serif;
 }
+
+.area{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.area img{
+    width: 100%;
+}
+
+footer{
+    text-align: center;
+    font-size: 9px;
+    padding:30px;
+    
+}
+
+/*Global Styles----------------------------------------------------------------*/
+
+
+p {
+    color: black;
+    font-size: 16px;
+    }
+
+h1{
+        padding-top:20px;
+        padding-bottom:10px;
+        font-size: 55px;
+        line-height:2px;
+        text-align: center;
+        font-weight: normal;
+      }
+      
+    
+h2{
+        font-size: 25px;
+        text-align: center;
+        font-weight: normal;
+      }
+
+
+ /*Global----------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* Home Page------------------------------------------------------ */
@@ -50,7 +112,6 @@ main{
 }
     
 
-
   .text-block {
   width: 50%;
   min-width: 300px;
@@ -62,46 +123,6 @@ main{
        
   }
 
-      
-    
-  h1{
-    padding-top:60px;
-    font-size: 40px;
-    line-height:2px;
-    text-align: center;
-
-  }
-  
-
-  h2{
-    font-size: 30px;
-    text-align: center;
-
-  }
-
-
-.area{
-    display: flex;
-    justify-content: space-evenly;
-    padding: 20px 0;
-    flex-direction: column;
-    gap: 20px;
-    align-items: center;
-
- 
-}
-
-.area img{
-    width: 100%;
-}
-
-p {
-color: black;
-font-size: 16px;
-
-
-}
-
 
 
 /* Home Page----------------------------------------------------------------------------------- */
@@ -111,27 +132,38 @@ font-size: 16px;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* About------------------------------------------------------------------------------------------*/
+
 .about{
     background-color:rgba(173, 207, 206, 0.155) ;
-
 }
-
-.image3{
-    width:60%;
-    object-fit: contain;
-}
-
-
-.image4{
-    width:90%;
-    object-fit: contain;
-}
-
-
-
 
 /* About------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
 
 
 
@@ -152,48 +184,33 @@ font-size: 16px;
 
 }
     
-h4{
-    color: black;
-    padding-top:60px;
-    font-size: 25px;
-    font-style: normal;
-    font-weight: 300px;
-    letter-spacing: 1px;
-    line-height: 2px;
-    text-align: center;
-}
 
 .text-block1 {
     width: 100%;
     max-width: 800px;
     border-radius: 10px;
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.8);
     padding: 20px; 
     box-shadow: 0 0px 8px 0 grey;
     margin: 30px;
          
     }
 
-            .copy{
-                color: black;
-                max-width:100% ;
-                object-fit: contain;
-                font-size: 18px;
-                font-style: normal;
-                font-weight: 300px;
-                letter-spacing: 0px;
-                line-height: normal;
-                text-align: left;
-
-            }
-
-    
-
-
-
-
-
 /* Services-----------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* Contact-----------------------------------------------------------------------------------------*/
@@ -215,10 +232,34 @@ visibility: hidden !important;
 
 
 
-/* Footer-----------------------------------------------------------------------------------------*/
 
 
-/* Footer-----------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media -------------------------------------------------------------------------------------------*/
 
 @media (min-width:800px){
     .area{
@@ -230,4 +271,4 @@ visibility: hidden !important;
     }
 }
 
-
+/* Media -------------------------------------------------------------------------------------------*/
