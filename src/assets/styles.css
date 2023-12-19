@@ -52,7 +52,7 @@ p {
 
 h1{
         padding-top:20px;
-        padding-bottom:10px;
+        padding-bottom:5px;
         font-size: 55px;
         line-height:2px;
         text-align: center;
@@ -218,6 +218,10 @@ main{
     background-color:rgba(173, 207, 206, 0.155) ; ;
 }
 
+.image2{
+    max-width: 60%;
+}
+
 #ff-compose .ff-form {
     background-color: transparent !important; 
 }
@@ -225,6 +229,38 @@ main{
 #ff-compose a.ff-powered-img img {
 visibility: hidden !important;
 }
+
+#ff-compose .ff-title {
+    font-family: 'Montserrat', sans-serif !important; 
+}
+
+#ff-compose .ff-item-qs{
+    font-family: 'Montserrat', sans-serif !important; 
+}
+
+#ff-compose .ff-next .ff-submit{
+  font-family: 'Montserrat', sans-serif !important; 
+
+}
+#ff-compose .ff-form button span {
+    font-family: 'Montserrat', sans-serif !important; 
+  
+  }
+  #ff-compose .ff-next, .ff-submit {
+    background-color: black !important; 
+}
+
+
+#ff-sec-root.ff-section img.ff-banner-image.ff-image {
+
+
+
+}
+
+
+
+
+
 
 
 /* Contact-----------------------------------------------------------------------------------------*/
