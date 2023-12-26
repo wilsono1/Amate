@@ -246,16 +246,12 @@ visibility: hidden !important;
     font-family: 'Montserrat', sans-serif !important; 
   
   }
-  #ff-compose .ff-next, .ff-submit {
-    background-color: black !important; 
+  #ff-compose .ff-form button {
+    background-color:black !important;
+    
 }
 
 
-#ff-sec-root.ff-section img.ff-banner-image.ff-image {
-
-
-
-}
 
 
 
